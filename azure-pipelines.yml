@@ -14,7 +14,7 @@ trigger:
 - main
 
 pool:
-  vmImage: vagrant-centos8
+  'My Laptop Local Pool'
 
 steps:
 - script: echo Hello, world!
