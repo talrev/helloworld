@@ -7,7 +7,7 @@ trigger:
 - main
 
 pool:
-  vmImage: ubuntu-latest
+  vmImage: vagrant-centos8
 
 steps:
 - script: echo Hello, world!
